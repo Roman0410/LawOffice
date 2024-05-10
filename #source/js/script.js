@@ -122,19 +122,19 @@ $(".faq-item").on("click", function () {
 });
 //_____________________________FILTER_____________________________//
 
-$(".area-filter-item").on("click", function () {
-  $(".area-filter-item").removeClass("open");
-  $(this).addClass("open");
-  const filter = $(this).data("filter");
-  $(".about-service").each(function () {
-    const category = $(this).data("category");
-    if (category === filter) {
-      $(this).addClass("open");
-    } else {
-      $(this).removeClass("open");
-    }
-  });
-});
+// $(".area-filter-item").on("click", function () {
+//   $(".area-filter-item").removeClass("open");
+//   $(this).addClass("open");
+//   const filter = $(this).data("filter");
+//   $(".about-service").each(function () {
+//     const category = $(this).data("category");
+//     if (category === filter) {
+//       $(this).addClass("open");
+//     } else {
+//       $(this).removeClass("open");
+//     }
+//   });
+// });
 
 //_____________________________FORM_____________________________//
 
