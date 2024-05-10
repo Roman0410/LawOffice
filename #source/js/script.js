@@ -97,7 +97,7 @@ $(document).ready(function () {
 
   function isScrolledIntoView($elem) {
     var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height() - 200;
+    var docViewBottom = docViewTop + $(window).height() - 0;
     var elemTop = $elem.offset().top;
     var elemBottom = elemTop + $elem.height();
 

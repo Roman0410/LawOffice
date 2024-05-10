@@ -100,7 +100,6 @@
     -webkit-transform: scale(1.08) translate(0px);
   }
 }
-
 .advantages {
   padding: 0;
   .container {
@@ -109,7 +108,7 @@
     max-width: 1119px;
     margin: 0 auto;
     background-color: var(--background);
-    margin-top: -100px;
+    margin-top: -60px;
     z-index: 1000;
     position: relative;
     @media screen and (max-width: 768px) {

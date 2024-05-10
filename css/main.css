@@ -1376,7 +1376,7 @@ input.just-validate-success-field {
   max-width: 1119px;
   margin: 0 auto;
   background-color: var(--background);
-  margin-top: -100px;
+  margin-top: -60px;
   z-index: 1000;
   position: relative;
 }
