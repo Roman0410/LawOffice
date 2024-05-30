@@ -3061,3 +3061,43 @@ input.just-validate-success-field {
 .ourTeam .text_20 {
   color: var(--accent-color);
 }
+
+.thankYou {
+  padding: 138px 0 63px 0;
+  background-color: var(--background);
+}
+.thankYou .card {
+  border: 1px solid #dad3b8;
+  background: #fffefb;
+  padding: 48px;
+  max-width: 920px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .thankYou .card {
+    padding: 32px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .thankYou .card {
+    padding: 24px;
+  }
+}
+.thankYou .section-subtitle {
+  color: var(--accent-color);
+}
+.thankYou .section-title {
+  color: #2b2119;
+}
+.thankYou .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 173px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
